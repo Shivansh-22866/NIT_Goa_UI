@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <ul class="accessBar">
+            <li><a href="https://mis.nitgoa.ac.in/misnitgoa/">MIS Portal</a></li>
+            <li>Login</li>
+            <li>G.I.A.N</li>
+            <li>Home</li>
+            <li onclick="lightTheme()">Light</li>
+            <li onclick="darkTheme()">Dark</li>
+        </ul>
+        <div class="headerBar">
+            <div class="logo-container">
+                <img src="src/nit-goa-logo.png" class="logo" id="logo_img">
+                <h1 id="header">National Institute of Technology, Goa</h1>
+                <button class="nav" onclick="toggleMenu()">
+                    <img id="nav" src="src/nav.png" width="40">
+                </button>
+            </div>
+            <ul id="navbar">
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Home</button>
+                        <div class="dropdown-content">
+                            <a>About NIT Goa</a>
+                            <a>How to Reach Us</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Administration</button>
+                        <div class="dropdown-content">
+                            <a>Board of Directors</a>
+                            <a>Director</a>
+                            <a>Senate</a>
+                            <a>Finance Commitee</a>
+                            <a>Building and Works Commitee</a>
+                            <a>Registrar</a>
+                            <a>Dean</a>
+                            <a>Head of Departments</a>
+                            <a>Organization Structures</a>
+                            <a>Commitee</a>
+                            <a>Reports</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Academics</button>
+                        <div class="dropdown-content">
+                            <a>Student</a>
+                            <a>Calender</a>
+                            <a>Regulations and Curriculum</a>
+                            <a>Dissertation Formats</a>
+                            <a>Results</a>
+                            <a>Departments</a>
+                            <a>Library</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Admissions</button>
+                        <div class="dropdown-content">
+                            <a>B.Tech</a>
+                            <a>M.Tech</a>
+                            <a>P.Hd.</a>
+                            <a>Fee Stucture</a>
+                            <a>Hostels</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">People</button>
+                        <div class="dropdown-content">
+                            <a>Faculty</a>
+                            <a>Technical staff</a>
+                            <a>Administrative Staff</a>
+                            <a>Faculty and Staff Directory</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Research</button>
+                        <div class="dropdown-content">
+                            <a>R&D Projects</a>
+                            <a>IPR Policy</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Training and Placements</button>
+                        <div class="dropdown-content">
+                            <a>T&P</a>
+                            <a>Company Login</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Outreach Activities</button>
+                        <div class="dropdown-content">
+                            <a>About NIT Goa</a>
+                            <a>How to Reach Us</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">NIRF</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Alumni</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                    <button class="dropbtn">Fee Payment</button>
+                </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="spacer">
+
+        </div>
+
+        <div class="hero">
+            <div id="type">Education is not the learning of facts... but the training of the mind to think</div>
+        </div>
+
+        <marquee class="announce">The announcement will be made here</marquee>
+
+        <div class="cards-container">
+            <div class="card">
+                <h2 class="card-header">
+                    Our Rankings
+                </h2>
+                <h4>
+                    NIRF Rank
+                </h4>
+                <h1 class="big-head">
+                    90
+                </h1>
+                <h4>
+                    Overall Ranking
+                </h4>
+                <h1 class="big-head">
+                    88
+                </h1>
+            </div>
+            <div class="card">
+                <h2 class="card-header">
+                    News And Events
+                </h2>
+                <span>Timetable for B.Tech, M.Tech and P.Hd.</span>
+                <span>Advertisement for the post of medical officer on temporary basis</span>
+                <span>Five Day Workshop on Deep Learning</span>
+            </div>
+            <div class="card">
+                <h2 class="card-header">
+                    Notice Board
+                </h2>
+                <span>A Biannual Newsletter</span>
+                <span>9th Convocation</span>
+                <span>First Year Master TimeTable</span>
+                <span>Office Order: Duty hours for non-teaching Staff</span>
+                <span>Amogus</span>
+            </div>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <h2 class="card-header">
+                    Upcoming Events
+                </h2>
+                <span>
+                    Winter Hackathon on December 4th!!
+                </span>
+                <span>
+                    Cricket Tournament from December onwards
+                </span>
+                <span>
+                    End Sems starts from 28th December
+                </span>
+            </div>
+            <div class="card">
+                <h2 class="card-header">
+                    Club Announcements
+                </h2>
+                <span>Timetable for B.Tech, M.Tech and P.Hd.</span>
+                <span>Advertisement for the post of medical officer on temporary basis</span>
+                <span>Five Day Workshop on Deep Learning</span>
+            </div>
+            <div class="card">
+                <h2 class="card-header">
+                    Quick Links
+                </h2>
+                <span>A Biannual Newsletter</span>
+                <span>9th Convocation</span>
+                <span>First Year Master TimeTable</span>
+                <span>Office Order: Duty hours for non-teaching Staff</span>
+                <span>Amogus</span>
+            </div>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <h2 class="card-header">
+                    NIT Goa Tweets
+                </h2>
+                <span>
+                    Check more here 
+                </span>
+            </div>
+
+            <div id="bar-chart" class="card">
+                <h2 class="card-header">
+                    Placement Statistics
+                </h2>
+                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+            </div>
+        </div>
+
+        <div class="cards-container" id="student">
+            <div class="card">
+                <h2 class="card-header">Student Resources</h2>
+                <h3>Verify and get the collection of books and online resources needed for the curriculum of the Institute</h3>
+                <br/>
+                <ul class="branches">
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">CVE</button>
+                            <div class="dropdown-content">
+                                <a>1st Year</a>
+                                <a>2nd Year</a>
+                                <a>3rd Year</a>
+                                <a>4th Year</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">CSE</button>
+                            <div class="dropdown-content">
+                                <a>1st Year</a>
+                                <a>2nd Year</a>
+                                <a>3rd Year</a>
+                                <a>4th Year</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">EEE</button>
+                            <div class="dropdown-content">
+                                <a>1st Year</a>
+                                <a>2nd Year</a>
+                                <a>3rd Year</a>
+                                <a>4th Year</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">ECE</button>
+                            <div class="dropdown-content">
+                                <a>1st Year</a>
+                                <a>2nd Year</a>
+                                <a>3rd Year</a>
+                                <a>4th Year</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">MCE</button>
+                            <div class="dropdown-content">
+                                <a>1st Year</a>
+                                <a>2nd Year</a>
+                                <a>3rd Year</a>
+                                <a>4th Year</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2 class="card-header">Student Feedback</h2>
+                <form id="feedback">
+                    <p>What is the type of feedback that you want to give?</p>
+                    <input type="radio" id="1" name="feedback" value="TS">
+                    <label for="html">Teaching Staff</label><br>
+                    <input type="radio" id="2" name="feedback" value="NTS">
+                    <label for="css">Non-Teaching Staff</label><br>
+                    <input type="radio" id="3" name="feedback" value="MS">
+                    <label for="javascript">Management Structure</label>
+                    <input type="radio" id="4" name="feedback" value="other">
+                    <label for="javascript">Other</label><br><br>
+                    <input type="text" placeholder="Enter your email address"/>
+                    <input type="text" placeholder="Enter your Feedback"/>
+                </form>
+            </div>
+        </div>
+
+        <h1 id="testimonial-head">Testimonials</h1>
+        <div id="testimonials">
+            <div class="card">
+                <img src="src/img1.jpg">
+                <h2>Dr. Pramod P. Sawant, Chief Minister of Goa</h2>
+                <q><em>I am confident that the graduating 
+                    students will play a key role in progress
+                     of our nation along with sense
+                      of responsibility & commitment 
+                      towards our society</em></q>
+            </div>
+
+            <div class="card">
+                <img src="src/img2.jpg">
+                <h2>Shri Venkaiah Naidu, Former Vice-President of India</h2>
+                <q><em>The years which you have spent at NIT Goa as students
+                     in the company of your peers and facilitators, would 
+                     always be cherished by all of you.</em></q>
+            </div>
+
+            <div class="card">
+                <img src="src/img3.jpg">
+                <h2>Dr. Manohar Parrikar, Former Chief Minister of Goa</h2>
+                <br>
+                <q><em>I am truly honoured and humbled to receive 
+                    the Honorary Doctorate Degree by National 
+                    Institute of Technology Goa,</em></q>
+            </div>
+        </div>
+
+        <div class="big-links-wrapper">
+            <span class="big-link">
+                <a>Campus</a>
+                <img src="src/right.png">
+            </span>
+            <span class="big-link">
+                Gallery
+                <img src="src/right.png">
+            </span>
+        </div>
+
+        <div class="footer">
+            <div class="footerCard" id="quick-links">
+                <h2>Quick Links</h2>
+                <div class="quick-links-wrapper">
+                    <ul class="one">
+                        <li>&#x2B9E; Home</li>
+                        <li>&#x2B9E; About NIT Goa</li>
+                        <li>&#x2B9E; Syllabus</li>
+                        <li>&#x2B9E; Result</li>
+                        <li>&#x2B9E; RTI</li>
+                        <li>&#x2B9E; e-Downloads</li>
+                    </ul>
+                    <ul class="two">
+                        <li>&#x2B9E; Students</li>
+                        <li>&#x2B9E; Academic Calender</li>
+                        <li>&#x2B9E; Regulations and Curriculum</li>
+                        <li>&#x2B9E; Dissertaion Problems</li>
+                        <li>&#x2B9E; Login</li>
+                        <li>&#x2B9E; Feedback</li>
+                        <li>&#x2B9E; Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerCard">
+                <h2>Information</h2>
+                <div class="quick-links-wrapper">
+                    <ul id="info">
+                        <li>&#x2B9E; Faculty</li>
+                        <li>&#x2B9E; Staff</li>
+                        <li>&#x2B9E; JEE</li>
+                        <li>&#x2B9E; Facilities</li>
+                        <li>&#x2B9E; Fees Structure</li>
+                        <li>&#x2B9E; NIRF</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerCard">
+                <h2>Contact Us</h2>
+                <ul id="contact">
+                    <br>
+                    <li>National Institute of Technology Goa</li>
+                    <li>Website: www.nitgoa.ac.in</li>
+                    <li>Phone: [0832]2404200</li>
+                    <li>Fax: [0832] 2404202</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="script.js"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <script>
+        var xValues = ["Engineering", "Education", "Research", "IT", "Business Dev","Operations","Others"];
+        var yValues = [44, 12, 9, 7, 5, 4, 19];
+        var barColors = [
+          "#b91d47",
+          "#00aba9",
+          "#2b5797",
+          "#e8c3b9",
+          "#1e7145",
+          "#007D7D"
+        ];
+        
+        new Chart("myChart", {
+          type: "pie",
+          data: {
+            labels: xValues,
+            datasets: [{
+              backgroundColor: barColors,
+              data: yValues
+            }]
+          },
+          options: {
+            title: {
+              display: true,
+              text: "Graphical Representation of NIT Goa Placements Sector-Wise (2023) in %"
+            }
+          }
+        });
+        </script>
+</html>
